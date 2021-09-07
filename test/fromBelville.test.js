@@ -1,12 +1,12 @@
 let assert = require("assert");
-let greet = require("../fromBelville");
+let FromBellville = require("../fromBelville");
 
 
 describe('The isFromBelville function...' , function(){
     it('should return true if a vehicle registration number is from Belville' , function(){
-        assert.equal(isFromBellville('CY 123'), true);
+        assert.equal(FromBellville('CY 123'), true);
     });
     it('should return false if a vehicle registration number is NOT from Belville' , function(){
-        assert.equal(isFromBellville('CJ 123'), false);
+        assert.equal(FromBellville('CJ 123'), false);
     });
 });
