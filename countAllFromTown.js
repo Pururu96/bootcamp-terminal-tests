@@ -11,6 +11,9 @@ module.exports = function(vehReg, RegLoc) {
     if (currentVehReg.includes(RegLoc)) {
       counter++;
     }
+    else{
+      counter = 0;
+    }
   }
   return counter;
 };
