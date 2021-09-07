@@ -1,5 +1,5 @@
 let assert = require("assert");
-let findItemsOver20 = require("../fromWhere");
+let findItemsOver20 = require("../findItemsOver20");
 // let results = require("../fromWhere")
 
 var itemList = [
@@ -35,7 +35,7 @@ var itemList = [
     { name: 'bananas', qty: 23 },
     { name: 'apples', qty: 37 }
   ];
-  
+
 describe('The findItemsOver20 function...', function () {
     it('should return all the products that have a quantity over 20 in the itemList', function () {
         assert.deepEqual(results, findItemsOver20(itemList));
