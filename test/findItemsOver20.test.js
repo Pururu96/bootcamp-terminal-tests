@@ -1,6 +1,5 @@
 let assert = require("assert");
 let findItemsOver20 = require("../findItemsOver20");
-// let results = require("../fromWhere")
 
 var itemList = [
     { name: 'apples', qty: 10 },
