@@ -1,4 +1,3 @@
-
 module.exports = function(salesData){
     const salesdataMap = {};
     for (var i = 0; i < salesData.length; i++){
