@@ -13,6 +13,6 @@ describe('The countAllFromTown function...', function () {
     });
 
     it('should count the exact number of vehicle registration numbers from ANY town in a string', function () {
-        assert.equal(fromLimpopo('CJ 124,CY 567,CL 345, CF 456, CL 341', 'CF'), 0)
+        assert.equal(fromLimpopo('CJ 124,CY 567,CL 345, CF 456, CL 341', 'L'), 0)
     });
 });
