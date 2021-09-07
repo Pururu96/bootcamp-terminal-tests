@@ -1,4 +1,4 @@
-module.exports = function (object,threshold){ 
+module.exports = function(object,threshold){ 
     var itemsOver20 = [];
    for(var prop in object){
      if(object[prop].qty>threshold){
