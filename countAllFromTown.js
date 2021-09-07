@@ -1,5 +1,5 @@
-var fromStellies = countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341', 'CL');
-var fromKuilsriver = countAllFromTown('CJ 124,CY 567,CL 345, CF 456, CL 341', 'CF');
+// var fromStellies = module.exports('CL 124,CY 567,CL 345, CJ 456,CL 341', 'CL');
+// var fromKuilsriver = module.exports('CJ 124,CY 567,CL 345, CF 456, CL 341', 'CF');
 
 module.exports = function(vehReg, RegLoc) {
   var vehRegNum = vehReg.split(',');
