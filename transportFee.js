@@ -1,4 +1,4 @@
-module.export = function(shift){
+module.exports = function(shift){
     if (shift == 'morning'){
       return 'R20';
     }
